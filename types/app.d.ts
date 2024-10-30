@@ -8,7 +8,7 @@ declare global {
   export type Indexed<K = string, T = unknown> = { [key: K]: T }
 
 
-  declare type RootState = import("../src/app/appStore").RootState
+  declare type RootState = import("..6b16c4f423e206855a6661bc4f7494f283c216f2/src/app/appStore").RootState
   declare type AppDispatch = import("../src/app/appStore").AppDispatch
 }
 

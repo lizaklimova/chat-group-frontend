@@ -25,6 +25,7 @@ export default [{
         "tailwind.config.js",
         "postcss.config.js",
         "vite.config.ts",
+        "postcss.config.js",
     ]
 }, ...compat.extends(
     "plugin:@typescript-eslint/recommended",
@@ -97,6 +98,7 @@ export default [{
         "no-ex-assign": "error",
         "no-fallthrough": "error",
         "no-func-assign": "error",
+        "@typescript-eslint/no-explicit-any": "warn",
         "no-import-assign": "error",
         "no-inner-declarations": "error",
         "no-invalid-regexp": "error",
